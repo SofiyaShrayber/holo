@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible">
+        <title>Hologram Prototype</title>
+        <meta name="description" content="">
+
+        <link rel="icon" type="image/ico" href="favicon.ico"/>
+        
+        <link rel="stylesheet" href="assets/css/main.css">
+        <style type="text/css">
+            .easyhtml5video .eh5v_script {
+                display:none
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="container">
+
+	<div class="easyhtml5video" style="position:relative;max-width:630px;">
+	    <video autoplay="autoplay" poster="assets/img/eh5v.files/html5video/one.jpg" style="width:100%" title="one" loop="loop" onended="var v=this;setTimeout(function(){v.play()},300)">
+	        <source src="assets/img/eh5v.files/html5video/one.m4v" type="video/mp4" />
+	        <source src="assets/img/eh5v.files/html5video/one.webm" type="video/webm" />
+	        <object type="application/x-shockwave-flash" data="assets/img/eh5v.files/html5video/flashfox.swf" width="630" height="630" style="position:relative;">
+	            <param name="movie" value="assets/img/eh5v.files/html5video/flashfox.swf" />
+	            <param name="allowFullScreen" value="true" />
+	            <param name="flashVars" value="autoplay=true&amp;controls=false&amp;fullScreenEnabled=false&amp;posterOnEnd=true&amp;loop=true&amp;poster=assets/img/eh5v.files/html5video/one.jpg&amp;src=one.m4v" />
+	            <embed src="assets/img/eh5v.files/html5video/flashfox.swf" width="630" height="630" style="position:relative;" flashVars="autoplay=true&amp;controls=&amp;fullScreenEnabled=false&amp;posterOnEnd=true&amp;loop=true&amp;poster=assets/img/eh5v.files/html5video/one.jpg&amp;src=one.m4v" allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
+	            <img alt="one" src="assets/img/eh5v.files/html5video/one.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
+	        </object>
+	    </video>
+	    <div class="eh5v_script"><a href="http://easyhtml5video.com">easy html5 video</a> by EasyHtml5Video.com v3.5</div>
+	</div>
+	
+	<div class="border-fill"></div>
+
+</div>
+
+    <script src="assets/js/main.js"></script>
+
+
+    </body>
+</html>
